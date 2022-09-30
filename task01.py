@@ -8,7 +8,6 @@ n = float(input("n = "))
 sum = 0
 s=len(str(n))-1
 t = int(n*10**s)
-print(t)
 while t>0:
     sum += t%10
     t//=10
